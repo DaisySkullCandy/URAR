@@ -66,7 +66,7 @@ def initial_check():
             print(
                 clr("Y") + "Detected  fresh start, Generating JSON file " + resetclr()
             )
-            auto_format()
+            auto_format(default_json_path,"accounts.txt",accounts_json_path)
 
 
 def open_accounts():
